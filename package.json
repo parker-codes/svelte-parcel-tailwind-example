@@ -1,0 +1,26 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel --no-hmr src/index.html",
+    "build": "parcel build --no-source-maps index.html"
+  },
+  "browserslist": [
+    "last 1 chrome versions",
+    "last 1 firefox version"
+  ],
+  "keywords": [],
+  "author": "Parker McMullin <parker.mcmullin01@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-svelte": "^3.0.1",
+    "postcss-modules": "^1.4.1",
+    "svelte": "^3.6.7",
+    "tailwindcss": "^1.0.5"
+  }
+}
